@@ -36,6 +36,59 @@ nav a
     color: #0063fc;
 }
 
+.filter_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.filter_row .switch-container {
+    margin-left: 3%;
+}
+
+.info-sentence-row{
+    display: flex;
+    align-items: center;
+    
+}
+
+.info-sentence-text{
+    padding-left: 0.5%;
+    
+}
+
+.fa-info-circle{
+    color: #0063fc;
+}
+
+.hebergement-popular-row{
+    display: flex;
+    
+}
+
+.hebergement-popular-basic-prop{
+    background-color: #f2f2f2;
+    border-radius: 10%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-right: 4%;
+
+}
+
+.hebergement-container{
+    flex: 2;
+    
+}
+.popular-container{
+    flex: 1
+}
+#popular-title-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 footer {
     padding-left: 60px;
     background-color: #f2f2f2;

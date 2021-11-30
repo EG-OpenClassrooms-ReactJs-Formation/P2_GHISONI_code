@@ -2,8 +2,11 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <!--link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"/>
         <link rel="stylesheet" href="css/main.css" />
         <link rel="stylesheet" href="css/filter.css" />
+        <link rel="stylesheet" href="css/forms.css" />
         <title>Booki</title>
     </head>
     
@@ -13,7 +16,7 @@
             <header>
                 <div id="titre_principal">
                     <div id="logo">
-                        <img src="images/logo/Booki@3x.png" alt="Logo de Booki" />
+                        <img src="images/logo/Booki.png" alt="Logo de Booki" />
                     </div>
                 </div>
                 
@@ -27,26 +30,65 @@
             </header>
             
             <!-- Top infos -->
-            <section>
+            <section >
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
+                <form class="form-container">
+                    <button type="submit" class="button-position">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </button>
+                    <input type="text" name="text" class="search" placeholder="Marseille, France" />
+                    <input type="submit" name="submit" class="submit" value="Rechercher" />
+                </form>
+                <div class="filter_row">
+                    <p> Filtres </p>
+                    <!--Filter Switch components-->
+                    <div class="switch-container">
+                        <div class="switch-icon-container">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <p class="switch-text-container">Economique</p>
+                    </div>
 
-                <div>
-                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                    <div class="switch-container">
+                        <div class="switch-icon-container">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <p class="switch-text-container">Famille</p>
+                    </div>
+                    <div class="switch-container">
+                        <div class="switch-icon-container">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <p class="switch-text-container">Romantique</p>
+                    </div>
+                    <div class="switch-container">
+                        <div class="switch-icon-container">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <p class="switch-text-container">Animaux autorisés</p>
+                    </div>
+                </div>
+                <div class="info-sentence-row">
+                    <i class="fas fa-info-circle"></i>
+                    <p class="info-sentence-text">Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </section>
 
-            <section >
+            
+            <section class="hebergement-popular-row">
                 <!-- Hébergements -->
-                <div class="hebergement-container">
+                <div class="hebergement-popular-basic-prop hebergement-container">
                     <h2>Hébergements à Marseille</h2>
                     <p>Afficher plus</p>
                 </div>
                 
                 <!-- Les plus populaires -->
-                <div class="popular-container">
-                    <h2>Les plus populaires</h2>
-
+                <div class="hebergement-popular-basic-prop popular-container">
+                    <div id="popular-title-row">
+                        <h2>Les plus populaires</h2>
+                        <i class="fas fa-heart"></i>
+                    </div>
                 </div>
             </section>
 
