@@ -108,7 +108,7 @@ nav a
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 15px;
-    row-gap: 15px;
+    row-gap: 30px;
 }
 
 .hebergement-popular-basic-prop{
@@ -157,7 +157,7 @@ nav a
 .activity-grid {
     display: grid; 
     max-height: 500px;
-    
+    width: 90%;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     
