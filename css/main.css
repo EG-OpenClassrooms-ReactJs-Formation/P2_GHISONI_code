@@ -1,6 +1,6 @@
 #bloc_page {
-    padding-left: 60px;
-    padding-right: 60px;
+    margin-left: 3%;
+    margin-right: 3%;
     
 }
 
@@ -105,10 +105,13 @@ nav a
 }
 
 #hebergement-grid-wrapper{
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 15px;
-    row-gap: 30px;
+    row-gap: 30px; */
+    display: flex;                       /* establish flex container */
+    flex-wrap: wrap;                     /* enable flex items to wrap */
+    justify-content: space-around;
 }
 
 .hebergement-popular-basic-prop{
@@ -116,10 +119,10 @@ nav a
     border-radius: 5%;
     padding-top: 30px;
     
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-right: 2%;
     
-    margin-right: 3%;
     justify-content: space-around;
     align-content: center;
     padding-bottom: 30px;
