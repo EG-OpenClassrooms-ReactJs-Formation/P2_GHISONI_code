@@ -24,7 +24,7 @@
 }
 
 .no-outline:focus {
-outline: none;
+	outline: none;
 }
 
 .search {

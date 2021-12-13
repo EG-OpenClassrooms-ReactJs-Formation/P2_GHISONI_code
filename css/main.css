@@ -76,14 +76,22 @@ nav a
                                 Form/selection section
 ******************************************************************************************/
 
-.filter_row {
+.filter-row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
     align-items: center;
-    
 }
-.filter_row .switch-container {
+
+.switch-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.switch-row .switch-container {
     margin-left: 3%;
 }
 

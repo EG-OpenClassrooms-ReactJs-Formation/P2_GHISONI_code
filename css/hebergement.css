@@ -48,3 +48,10 @@ color: #0065fc;
         justify-content: center;
     }
 }
+
+@media all and (max-width: 768px){
+    .hebergement-card {
+        min-width: 350px;
+        justify-content: center;
+    }
+}

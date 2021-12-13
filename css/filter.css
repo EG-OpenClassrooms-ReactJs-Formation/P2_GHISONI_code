@@ -6,6 +6,8 @@
     border-width: 2px;
     width: fit-content;
     max-height: 34px;
+    margin: 10px;
+    min-width: fit-content;
 }
 .switch-icon-container {
     background-color: #deebff;
@@ -29,4 +31,9 @@
 .switch-container:hover .switch-icon-container{
     color:#deebff;
     background-color: #0065fc;
+
+}
+.switch-container:hover{
+    border-color: #a4abb4e7;
+    
 }
