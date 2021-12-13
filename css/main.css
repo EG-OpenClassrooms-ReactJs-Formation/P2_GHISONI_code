@@ -123,7 +123,7 @@ nav a
 
 .hebergement-popular-basic-prop{
     background-color: #f2f2f2;
-    border-radius: 5%;
+    border-radius: 15px;
     padding-top: 30px;
     
     padding-left: 3%;
@@ -154,6 +154,43 @@ nav a
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/******************************************************************************************
+                                Tablette media query
+******************************************************************************************/
+@media all and (max-width: 992px){
+    .hebergement-popular-row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .hebergement-popular-basic-prop{
+        width: auto;
+    }
+    #hebergement-grid-wrapper{
+        /* display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 15px;
+        row-gap: 30px; */
+        
+        display: flex;                       /* establish flex container */
+        flex-wrap: wrap;                     /* enable flex items to wrap */
+        justify-content: center;
+    }
+
+    .hebergement-container{
+        background-color: #fff;
+        
+    }
+
+    .hebergement-popular-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .hebergement-container{
+        margin-bottom: 30px;
+        
+    }
 }
 
 /******************************************************************************************
@@ -202,7 +239,7 @@ nav a
 
 #activity-1 .activity-fit-picture{
     
-    max-height: 80%;
+    max-height: 84%;
 }
 
 #activity-2 {
@@ -211,7 +248,7 @@ nav a
 }
 #activity-2 .activity-fit-picture{
     
-    max-height: 70%;
+    max-height: 78%;
 }
 #activity-3 {
     height: 100%;
@@ -223,15 +260,62 @@ nav a
     
 }
 #activity-4 .activity-fit-picture{
-    max-height: 75%;
+    
+    max-height: 82%;
 }
 
 #activity-5 {
     height: 47.5%;
 }   
 #activity-5 .activity-fit-picture{
-    max-height: 75%;
+    max-height: 82%;
 }
+
+@media all and (max-width: 768px){
+    .activity-row {
+
+        /* display: grid; 
+        width: 90%;
+        max-height: 500px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px; */
+        display: flex;
+        flex-direction: column;
+        max-height: none;
+        justify-content: space-between;
+        width: auto;
+        
+    }
+    #activity-0 {
+        height: 450px;
+        
+    }
+    #activity-1 {
+        
+        height: 450px;
+    }
+    
+    #activity-2 {
+        height: 450px;
+        
+    }
+
+    #activity-3 {
+        height: 450px;
+        
+        
+    }
+    #activity-4 {
+        height: 450px;
+        
+    }
+    
+    #activity-5 {
+        height: 450px;
+    }
+}
+
 /******************************************************************************************
                                 Footer section
 ******************************************************************************************/

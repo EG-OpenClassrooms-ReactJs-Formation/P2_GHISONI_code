@@ -29,5 +29,16 @@
     
 }
 
-
+@media all and (max-width: 768px){
+    .activity-card {
+        max-height: 462px;
+        margin-bottom: 20px;
+    }
+    .activity-fit-picture {
+        border-radius: 15px 15px 0% 0%;
+        width: 100%;
+        min-height: 88%;
+        
+    }
+}
     
