@@ -5,13 +5,13 @@
     border-style: solid;
     border-width: 2px;
     width: fit-content;
-    max-height: 30px;
+    max-height: 34px;
 }
 .switch-icon-container {
     background-color: #deebff;
-    border-radius: 70px;
+    border-radius: 90px;
     padding: 10px;
-    height: 14px;
+    height: 18px;
     color: #0065fc;
     position: relative;
     right: 3px;
@@ -19,13 +19,14 @@
     
 }
 .switch-text-container {
-    margin: 12px;
-    font-size: 12px;
+    margin: 15px;
+    font-size: 14px;
     position: relative;
     right: 6px;
-    bottom: 3px;
+    bottom: 5px;
     font-weight: bold;
 }
-.switch-container:hover {
+.switch-container:hover .switch-icon-container{
+    color:#deebff;
     background-color: #0065fc;
 }
