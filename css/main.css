@@ -102,12 +102,15 @@ nav a
 }
 
 .info-sentence-text{
-    padding-left: 0.5%;
+    margin-left: 2%;
     
 }
 
 .fa-info-circle{
-    color: #0063fc;
+    color: white;
+    background-color: #0063fc;
+    border-radius: 8px;
+    
 }
 
 /******************************************************************************************
@@ -155,7 +158,7 @@ nav a
 
 
 .popular-container{
-    flex: 2
+    flex: 2;
 }
 
 #popular-title-row{
@@ -188,7 +191,6 @@ nav a
 
     .hebergement-container{
         background-color: #fff;
-        
     }
 
     .hebergement-popular-row{
