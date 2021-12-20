@@ -10,6 +10,8 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     
+    text-decoration: none;
+    color: inherit;
     
 }
 
@@ -17,12 +19,14 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
+    
 }
 
 .activity-fit-picture {
     border-radius: 15px 15px 0% 0%;
     width: 100%;
     min-height: 100%;
+    object-fit:cover;
 }
 .activity-card-title {
     padding-left: 20px;

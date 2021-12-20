@@ -19,6 +19,11 @@
     right: 3px;
     bottom: 2px;
     
+    
+}
+.fa-child {
+    padding-left: 4px;
+    width: 15px;
 }
 .switch-text-container {
     margin: 15px;
