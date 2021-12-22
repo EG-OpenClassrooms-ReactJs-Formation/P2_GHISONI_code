@@ -40,6 +40,8 @@ header {
 #logo {
     padding-top: 30px;
     padding-left: 10px;
+    width : 90px;
+    height:auto;
 }
 
 nav ul {
