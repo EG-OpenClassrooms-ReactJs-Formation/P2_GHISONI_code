@@ -223,13 +223,9 @@ nav li
         width: auto;
     }
     #hebergement-grid-wrapper{
-        /* display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        column-gap: 15px;
-        row-gap: 30px; */
         
         display: flex;                       /* establish flex container */
-        flex-wrap: wrap;                     /* enable flex items to wrap */
+        flex-direction: column;
         justify-content: center;
     }
 
@@ -253,17 +249,10 @@ nav li
 .activity-section{
     display: flex;
     flex-direction: column;
-    /*max-width: 90%;*/
     align-items: flex-start;
 }
 .activity-row {
 
-    /* display: grid; 
-    width: 90%;
-    max-height: 500px;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 30px; */
     display: flex;
     flex-direction: row;
     max-height: 500px;
@@ -274,7 +263,7 @@ nav li
  }
 
 .activity-column{
-    /*flex-direction: column;*/
+    
     margin-right: 3%;
      
 }
@@ -329,12 +318,6 @@ nav li
 @media all and (max-width: 768px){
     .activity-row {
 
-        /* display: grid; 
-        width: 90%;
-        max-height: 500px;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 30px; */
         display: flex;
         flex-direction: column;
         max-height: none;

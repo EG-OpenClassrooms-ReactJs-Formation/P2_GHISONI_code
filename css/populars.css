@@ -36,17 +36,13 @@
     font-weight: bold;
 }
 .popular-card-content {
-    /*margin-top: -5px;*/
+    
     padding-left: 15px;
     
 }
 /* star rating */
 .star-container {
-    /*
-    margin-top: 10px;
-    padding-left: 15px;
-    padding-bottom: 5px;
-    */
+    
     position: absolute;
     left: 15px;
     bottom: 5px;
