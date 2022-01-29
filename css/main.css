@@ -67,13 +67,13 @@ nav a
     text-decoration: none;
 }
 
-.nav_selected {
+.nav_selected:hover {
     
     border-top: solid #0063fc;
     border-spacing: 40px;
     color: #fc8600;
 }
-.nav_selected a {
+.nav_selected a:hover {
     
     color: #0063fc;
 }
@@ -99,7 +99,7 @@ nav ul{
     
     padding: 0px 0px 0px 0px;
 }
-.nav_selected {
+.nav_selected:hover {
     border-top: none;
     border-bottom: solid #0063fc;
     border-spacing: 20px;
@@ -161,7 +161,7 @@ nav li
                             Hebergement and popular section
 ******************************************************************************************/
 
-.hebergement-popular-row{
+#hebergement-popular-row{
     display: flex;
     
 }
@@ -215,7 +215,7 @@ nav li
                                 Tablette media query
 ******************************************************************************************/
 @media all and (max-width: 992px){
-    .hebergement-popular-row{
+    #hebergement-popular-row{
         display: flex;
         flex-direction: column-reverse;
     }
@@ -233,10 +233,6 @@ nav li
         background-color: #fff;
     }
 
-    .hebergement-popular-row{
-        display: flex;
-        flex-direction: column;
-    }
     .hebergement-container{
         margin-bottom: 30px;
         
@@ -246,7 +242,7 @@ nav li
 /******************************************************************************************
                                 Activity section
 ******************************************************************************************/
-.activity-section{
+#activity-section{
     display: flex;
     flex-direction: column;
     align-items: flex-start;

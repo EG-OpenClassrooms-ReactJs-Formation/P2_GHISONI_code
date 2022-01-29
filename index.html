@@ -4,7 +4,6 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <meta name="referrer" content="strict-origin" />
-        <!--link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" href="css/main.css" />
         <link rel="stylesheet" href="css/filter.css" />
@@ -28,8 +27,8 @@
             <!-- Navigation menu -->
             <nav>
                 <ul>
-                    <li class="nav_selected"><a href="#">Hébergements</a></li>
-                    <li><a href="#">Activités</a></li>
+                    <li class="nav_selected"><a href="#hebergement-popular-row">Hébergements</a></li>
+                    <li class="nav_selected"><a href="#activity-section">Activités</a></li>
                 </ul>
             </nav>
         </header>
@@ -46,7 +45,12 @@
                         <i class="fas fa-map-marker-alt"></i>
                     </button>
                     <input type="text" name="text" class="search" placeholder="Marseille, France" />
+                    
                     <input type="submit" name="submit" class="submit" value="Rechercher" />
+                    <button type="submit" class="submit_icon">
+                        <i class="fa fa-search"></i>
+                    </button>
+                    
                 </form>
                 <div class="spacer-top-info"></div>
                 <div class="filter-row">
@@ -88,7 +92,7 @@
             </section>
 
             <div class="spacer-top-info"></div>
-            <section class="hebergement-popular-row">
+            <section id="hebergement-popular-row">
                 <!-- Hébergements -->
                 <div class="hebergement-popular-basic-prop hebergement-container">
                     <h2>Hébergements à Marseille</h2>
@@ -257,7 +261,7 @@
                 </div>
             </section>
             <div class="spacer-end-section"></div>
-            <section class="activity-section">
+            <section id="activity-section">
                 <h2>Activité à Marseille</h2>
                 <div class="spacer-hergement-popular"></div>
                 <div class="activity-row">
